@@ -35,13 +35,16 @@ To look into whether the school summary was affected, we can first review the su
 
 Thomas High School had percentages of passing scores between 65.1% to 69.7%. Now let us take a look at the summary after we have removed the ninth graders math and reading scores.
 
-Current School Summary
+![img4](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img4.png?raw=true)
 
 Looking to Thomas High School, we can see that the percentages passing math, reading, and overall, increased to a range of 90.6% to 97.0%.
 
-How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?
+### How does replacing the ninth graders' math and reading scores affect Thomas High School's performance relative to the other schools?
 
-When the grades for the ninth graders were replaced, Thomas High School's performance relative to other schools drastically increased, as shown below. Top Five Schools
+When the grades for the ninth graders were replaced, Thomas High School's performance relative to other schools drastically increased, as shown below. 
+
+![img5](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img5.png?raw=true)
+
 
 Due to Thomas High School's overall passing percentage having gone up, it became one of the top five performing schools out of the total of 15 schools.
 
