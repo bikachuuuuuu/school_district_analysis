@@ -48,59 +48,60 @@ When the grades for the ninth graders were replaced, Thomas High School's perfor
 
 Due to Thomas High School's overall passing percentage having gone up, it became one of the top five performing schools out of the total of 15 schools.
 
-How does replacing the ninth-grade scores affect the following:
+### How does replacing the ninth-grade scores affect the following:
 
-Math and reading scores by grade
+#### Math and reading scores by grade
 
 To review how the math and reading scores were affected, here is a summary of math and reading scores prior to removing the ninth graders' scores.
 
-Math Scores - Previous_resized Reading Scores - Previous_resized
+![img6](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img6.png?raw=true)
+![img7](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img7.png?raw=true)
 
-Math and Reading scores, respectively.
 Now that we've established what the grades were before, let us take a look at the summary of math and reading scores after removing the ninth graders' scores for Thomas High School.
 
-Math Scores - Current_resized Reading Scores - Current_resized
+![img8](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img8.png?raw=true)
+![img9](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img9.png?raw=true)
 
-Math and Reading scores, respectively.
 As we can see, the ninth graders' scores were changed to 'nan' for math and reading. This did not affect any other grades for any of the other schools.
 
-Scores by school spending
+#### Scores by school spending
 
 To investigate whether there was a correlation between the scores and school spending, we pulled the data from the Per Student Budget (as shown in the school summary above) and set the numbers into ranges. We analyzed the data to see how much money was spent on each student, and their average math and reading scores, along with the percentages of those passing math, reading, and overall.
 
-School Spending - Previous
+![img10](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img10.png?raw=true)
 
 Now, let us look at the same information, but with the ninth graders' scores removed.
 
-School Spending - Current
+![img11](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img11.png?raw=true)
 
 Thomas High School's Per Student Budget was $638.00, causing it to fall in the range of $631-645. We used the decimal points to see the scale of the effect removing the ninth graders' scores had on that range. It would appear that there was a slight decrease in those numbers, except for the Average Reading score. There was a slight increase.
 
-Scores by school size
+#### Scores by school size
 
 To look into the relationship between the scores and the school size, we sorted the school sizes by small (less than 1,000 students), medium (1,000 to 1,999 students), and large (2,000 to 5,000). We specifically looked at the average math and reading scores, and the passing percentages for math, reading, and overall, as shown below.
 
-Scores by School Size - Previous
+![img12](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img12.png?raw=true)
 
 As we can see, small and medium-sized schools have a higher number of students passing math, reading, and overall, compared to large schools. Now, let us take a look at the data when we had removed the ninth graders' scores from Thomas High School, which was a medium-sized school.
 
-Scores by School Size - Current
+![img13](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img13.png?raw=true)
 
 Upon comparison, there was a slight decrease in percentages for medium-sized schools, except for the Average Reading score, where we can see a slight increase.
 
-Scores by school type
+#### Scores by school type
 
 To evalute how the removal of the scores affect the school type information, we analyzed the data by school type: District and Charter. Prior to replacing the ninth graders' scores by 'NaN', here we can see how the scores fared with each school type:
 
-Scores by School Type - Previous
+![img14](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img14.png?raw=true)
 
 Now, here is the summary of scores by school type, when we had removed the ninth graders' grades from Thomas High School, a Charter school.
 
-Scores by School Type - Current
+![img15](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img15.png?raw=true)
 
 As shown, we can see that in the Charter row, in the decimal point ranges, most of the scores had a slight decrease. In contrast, the average reading score had a slight increase.
 
-Summary
+## Summary
+
 As the results have shown, the altered ninth graders' scores had an effect on the overall purview of the schools' performances. One change we noticed was in the district summary. After the change, the average math score dropped, as well as the percentages of students passing math, reading, and overall. It is also worth noting that the average reading score remained the same.
 
 Another change we noticed was within the school summary. Less than 70% of Thomas High School students passed any of the three criteria (math, reading, and overall). However, upon removing the altered grades, the percentages had a dramatic increase, from ~60% to ~90%. The percentage of students who passed reading was 97%, whereas beforehand it was 69%. We can draw the conclusion that the percentages of students passing drastically increased when the altered grades were removed.
