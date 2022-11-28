@@ -17,15 +17,21 @@ This analysis was conducted for fifteen schools. There was evidence that the rea
 
 To evaluate how the district summary was affected, we will first present the district summary prior to the removal of the ninth graders' math and reading scores.
 
+![img1](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img1.png?raw=true)
 
+As shown above, we have a summary of the district's budget, average reading and math scores, along with the percentages of passing. Let us compare this summary to after we had replaced the scores with NaNs.
 
-As shown above, we have a summary of the district's budget, average reading and math scores, along with the percentages of passing. Let us compare this summary to after we had replaced the scores with NaNs. Current District Summary
+![img2](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img2.png?raw=true)
+
 
 We can see that the average math score dropped by 0.1, whereas the average reading score remained the same. We can also note that the percentage of those passing math had dropped by 0.2%, and passing reading dropped by 0.1%. The overall passing percentage dropped by 0.3%.
 
 ### How is the school summary affected?
 
-To look into whether the school summary was affected, we can first review the summary prior to the changes being implemented, as shown below. Previous School Summary
+To look into whether the school summary was affected, we can first review the summary prior to the changes being implemented, as shown below. 
+
+![img3](https://github.com/bikachuuuuuu/school_district_analysis/blob/main/resources/img3.png?raw=true)
+
 
 Thomas High School had percentages of passing scores between 65.1% to 69.7%. Now let us take a look at the summary after we have removed the ninth graders math and reading scores.
 
